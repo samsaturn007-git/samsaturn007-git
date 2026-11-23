@@ -1,36 +1,50 @@
-![Samuel D’souza. Full-stack development across web apps, mobile apps, and test tooling.](assets/profile-cover.png)
+![Samuel Dsouza, full-stack developer and hackathon builder. Web, mobile and developer tools.](assets/showcase/banner.png)
 
-[Portfolio](https://samuel-portfolio-topaz.vercel.app) · [LinkedIn](https://www.linkedin.com/in/samuel-dsouza) · [All repositories](https://github.com/samsaturn007-git?tab=repositories)
+[Portfolio](https://samuel-portfolio-topaz.vercel.app) · [LinkedIn](https://www.linkedin.com/in/samuel-dsouza) · [Hackathons](#hackathons) · [Tech stack](#tech-stack)
 
 ## Currently building
 
 ### [TestGrid](https://github.com/samsaturn007-git/TestGrid)
 
-A reliability-focused platform for orchestrating browser tests. It queues runs, executes them with Playwright workers, and brings timelines, logs, screenshots, and traces together in a live dashboard.
+I’m building a browser test orchestration platform with a durable queue, Playwright workers, and a live dashboard for run timelines, logs, screenshots, and traces.
 
-![TestGrid run lifecycle. The Spring Boot API accepts a run, RabbitMQ queues it, a Playwright worker runs the tests, and the dashboard shows the results.](assets/testgrid-flow.png)
+[![TestGrid’s run timeline for a demo run, showing two attempts, worker heartbeats, and stored artifacts. Runs move from the Spring Boot API through RabbitMQ and Playwright to the dashboard.](assets/showcase/testgrid.png)](https://github.com/samsaturn007-git/TestGrid)
 
-[Source code](https://github.com/samsaturn007-git/TestGrid) · [Architecture](https://github.com/samsaturn007-git/TestGrid/blob/main/docs/ARCHITECTURE.md) · [Build progress](https://github.com/samsaturn007-git/TestGrid/blob/main/PROGRESS.md)
+[Repository](https://github.com/samsaturn007-git/TestGrid) · [Architecture](https://github.com/samsaturn007-git/TestGrid/blob/main/docs/ARCHITECTURE.md) · [Build progress](https://github.com/samsaturn007-git/TestGrid/blob/main/PROGRESS.md)
+
+## Hackathons
+
+I enjoy teaming up around a real problem, building under a deadline, and demoing something people can try.
+
+<picture>
+  <source media="(max-width: 767px)" srcset="https://raw.githubusercontent.com/samsaturn007-git/samsaturn007-git/main/assets/showcase/hackathons-mobile.png">
+  <img src="assets/showcase/hackathons.png" alt="First place, DBIT CodeVerse Mumbai. Grand finalist, Smart India Hackathon 2025. Runner-up, PVG Pune Hackathon.">
+</picture>
+
+**Community leadership** · Creative Head, Computer Society of India (CSI)
 
 ## Selected projects
 
-| Project | What it does |
-| :-- | :-- |
-| [**Portfolio**](https://github.com/samsaturn007-git/Portfolio) | Next.js portfolio with three interactive case studies and a procedural Canvas study. [Live site ↗](https://samuel-portfolio-topaz.vercel.app) |
-| [**UrbanX**](https://github.com/samsaturn007-git/UrbanX) | React and TypeScript dashboard for traffic, air quality, and city alerts. |
-| [**Knee**](https://github.com/samsaturn007-git/Knee) | Expo app that visualizes knee angle and stability readings. |
-| [**Finna Credit**](https://github.com/samsaturn007-git/finna-credit-app) | Mobile credit app built with Expo and TypeScript. |
-| [**Price Compare**](https://github.com/samsaturn007-git/price-compare-py) | Flask app for comparing electronics prices and viewing price history. |
+<p align="center">
+  <a href="https://samuel-portfolio-topaz.vercel.app/work/arthik360"><img width="32%" src="assets/showcase/arthik360.png" alt="Arthik360 fintech case study"></a>
+  <a href="https://samuel-portfolio-topaz.vercel.app/work/smart-x"><img width="32%" src="assets/showcase/smart-x.png" alt="Smart X civic mobile case study"></a>
+  <a href="https://samuel-portfolio-topaz.vercel.app/work/smart-city"><img width="32%" src="assets/showcase/smart-city.png" alt="Smart City Management AI case study"></a>
+</p>
 
-### Case studies
+- **[Arthik360](https://samuel-portfolio-topaz.vercel.app/work/arthik360)** brings expenses, assets, and investment performance into one dashboard. Built during my full-stack internship at Genofin Labs with React, Node.js, and Firebase.
+- **[Smart X](https://samuel-portfolio-topaz.vercel.app/work/smart-x)** is an Android app for traffic routing, air-quality readings, public alerts, and citizen reports. Built with React Native, TypeScript, and Supabase.
+- **[Smart City Management AI](https://samuel-portfolio-topaz.vercel.app/work/smart-city)** brings IoT sensor readings and urban alerts into an operations dashboard connected to Smart X.
 
-[Arthik360](https://samuel-portfolio-topaz.vercel.app/work/arthik360) · [Smart X](https://samuel-portfolio-topaz.vercel.app/work/smart-x) · [Smart City Management AI](https://samuel-portfolio-topaz.vercel.app/work/smart-city)
+[Portfolio source](https://github.com/samsaturn007-git/Portfolio) · [UrbanX](https://github.com/samsaturn007-git/UrbanX) · [Knee](https://github.com/samsaturn007-git/Knee) · [Finna Credit](https://github.com/samsaturn007-git/finna-credit-app) · [Price Compare](https://github.com/samsaturn007-git/price-compare-py) · [All repositories](https://github.com/samsaturn007-git?tab=repositories)
 
-## Achievements & leadership
+## Tech stack
 
-| Recognition | Event or organization |
-| :-- | :-- |
-| **First place** | DBIT CodeVerse, Mumbai |
-| **Grand finalist** | Smart India Hackathon 2025 |
-| **Runner-up** | PVG Pune Hackathon |
-| **Creative Head** | Computer Society of India |
+<picture>
+  <source media="(max-width: 767px)" srcset="https://raw.githubusercontent.com/samsaturn007-git/samsaturn007-git/main/assets/showcase/stack-mobile.png">
+  <img src="assets/showcase/stack.png" alt="Languages and runtimes include Java, TypeScript, Node.js, and Python. Web and mobile tools include React, React Native, Next.js, Flutter, and Tailwind CSS. Backend and data tools include Spring Boot, PostgreSQL, Supabase, and Firebase. Testing and delivery tools include Playwright, Docker, GitHub Actions, and RabbitMQ.">
+</picture>
+
+## Experience
+
+- **Genofin Labs** · Full-stack web development intern, June–August 2025. Built Arthik360 and integrated identity verification, investment data, and interactive charts.
+- **TechEntrepreneurs** · Mobile application development intern, March–June 2025. Worked on cross-platform iOS and Android apps with React Native and Flutter.
